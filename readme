@@ -1,12 +1,18 @@
 
-This is a website scraper I created to assist with job hunting and practice coding in python. I initially used bs4 only to load indeed.com, but needed to use selenium to open the dynamic webpage first.
-I then passed the  open website as an object into beautifulsoup4 and then extract information from appropriate tags. 
+This is a website scraper I created to assist with job hunting, practice coding in python and pandas with scraped data.
+I used selenium to open the dynamic webpage then passed the opened website as an object into bs4. 
 
-I have separated the project into extract and transform functions, to condense the code. 
-Currently, the code can deal with 4 pages of pagination, with 15 job entries per page. 
-I have saved the scraped data into python dictionary, then used pandas dataframe to export scraped data into CSV.
+From then I extracted specific information of interest as position title, company from appropriate html tags.
 
-In the near future, I'd like to append to python dictionary without replacing existing entries, avoid duplicate entries, and automate running of the script on a set schedule. 
 
+Pagination wise, the code now scrapes 4 pages, with 15 job entries per page, for a total of 60 entries per each run. 
+These entries are saved in a python dictionary, passed through pandas dataframe, and exported as CSV. 
+In the near future, I'd like to append to python dictionary without replacing existing entries and figure out how to avoid saving duplicate entries.
+
+
+I'd also like to separate (extract) finer details from the currently lengthy summary column, and perhaps place them into additional columns of the data frame.
+I'm also working on coding functions that extracts with salary information appropriately.
+
+Once sufficiently compiled, cleaned and organized, I'm looking to practice data manipulation and analysis with pandas. 
 
 Thank you for your attention.
