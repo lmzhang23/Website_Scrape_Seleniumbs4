@@ -7,7 +7,7 @@ From then I extracted specific information of interest as position title, compan
 
 Pagination wise, the code now scrapes 4 pages, with 15 job entries per page, for a total of 60 entries per each run. 
 These entries are saved in a python dictionary, passed through pandas dataframe, and exported as CSV. 
-In the near future, I'd like to append to python dictionary without replacing existing entries and figure out how to avoid saving duplicate entries.
+In the near future, I'd like to append to python dictionary (and therefore the final csv) without replacing existing entries and figure out how to avoid saving duplicate entries.
 
 
 I'd also like to separate (extract) finer details from the currently lengthy summary column, and perhaps place them into additional columns of the data frame.
