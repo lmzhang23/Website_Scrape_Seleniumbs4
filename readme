@@ -1,1 +1,12 @@
 
+This is a website scraper I created to assist with job hunting and practice coding in python. I initially used bs4 only to load indeed.com, but needed to use selenium to open the dynamic webpage first.
+I then passed the  open website as an object into beautifulsoup4 and then extract information from appropriate tags. 
+
+I have separated the project into extract and transform functions, to condense the code. 
+Currently, the code can deal with 4 pages of pagination, with 15 job entries per page. 
+I have saved the scraped data into python dictionary, then used pandas dataframe to export scraped data into CSV.
+
+In the near future, I'd like to append to python dictionary without replacing existing entries, avoid duplicate entries, and automate running of the script on a set schedule. 
+
+
+Thank you for your attention.
