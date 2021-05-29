@@ -1,5 +1,5 @@
 
-This is a website scraper I created to assist with job hunting, practice coding in python and pandas with scraped data.
+This is a website scraper I created to assist with job hunting, practice coding in python and subsequent analysis of scraped data in Pandas.
 I used selenium to open the dynamic webpage then passed the opened website as an object into bs4. 
 
 From then I extracted specific information of interest as position title, company from appropriate html tags.
