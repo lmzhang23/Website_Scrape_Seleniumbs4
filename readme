@@ -11,7 +11,7 @@ In the near future, I'd like to append to python dictionary (and therefore the f
 
 
 I'd also like to separate (extract) finer details from the currently lengthy summary column, and perhaps place them into additional columns of the data frame.
-I'm also working on coding functions that extracts with salary information appropriately.
+If possible, salary information would be good addition to the dataframe. 
 
 Once sufficiently compiled, cleaned and organized, I'm looking to practice data manipulation and analysis with pandas. 
 
